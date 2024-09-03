@@ -136,3 +136,37 @@ main{
     background-color: #f9f9f9;
     border: #b8b7b7 2px solid;
 }
+/* partners */
+.partners{
+    background: #EDEBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 272px;
+    margin-top: 170px;
+}
+.partners div{
+    margin: 0 36px;
+    padding: 5px;
+    width: 225px;
+    height: 125px;
+    padding: 16px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.partners div img{
+    height: 100px;
+}
+.partners div p{
+    color: #94928B;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.img2 img{
+    margin-bottom: 9.8px;
+}
