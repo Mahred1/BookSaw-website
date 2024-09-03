@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 55px 81px auto 100px;
+    grid-template-areas: "banner"
+                          "nav"
+                          "main"
+                          "footer";
+}
+.banner{
+    background-color: #F3F2EC;
+    grid-area: banner;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-family: "Plus Jakarta Sans", sans-serif ;
+   padding: 20px 100px;
+}
+.social{
+    display: flex;
+    width: 170px;
+    height: 20px;
+}
+.social img{
+    margin: 0 0.5rem;
+    opacity: 0.35;
+    cursor: pointe;
+}
+.tags {
+    display: flex;
+    font-size: 12px;
+
+}
+.tags div{
+    color: #7777;
+    padding-left: 52px;
+    cursor: pointer;
 }
