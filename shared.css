@@ -6,24 +6,27 @@
     padding: 0;
     margin: 0;
 }
+
 body{
-    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
     font-family: "Plus Jakarta Sans", sans-serif;
     display: grid;
-    grid-template-rows: 55px 81px auto 100px;
+    grid-template-rows: 3.44rem 5rem auto 6.25rem;
+    grid-template-columns: 100vw;
     grid-template-areas:
     "banner"
-    "header"
+    "nav"
     "main"
     "footer";
 }
-/* main header */
-
 /* styles for banner */
 .banner{
     background-color: #fafafa;
     grid-area: banner;
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
    font-family: inherit ;
@@ -49,17 +52,23 @@ body{
     padding-left: 52px;
     cursor: pointer;
 }
-/* Styles for Nav */
+/* main header */
+.main-header{
+    grid-area: nav;
+    position: sticky;
+    top: 0;
+}
+/* Styles for nav */
 .main-nav{
-    /* background: #F3F2EC; */
+    background: #ffffff;
     grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 27px 100px;
+    padding: 12px 100px;
     text-transform: uppercase;
     font-size: 12px;
-    letter-spacing: 1.92px;
+    letter-spacing: 1.92px;    
 }
 .logo{
     font-family: "Cormorant Unicase", serif;
@@ -84,89 +93,4 @@ body{
 /* main */
 main{
     grid-area:main;
-}
-/* Hero Section */
-
-.hero-section{
-    margin: 8rem auto;
-    padding: 0 100px;
-    display: grid;
-    grid-template-columns: 45% 35%;
-    align-items: center;
-    justify-content: center;
-    grid-gap: 5rem;    
-}
-.hero-section h1{
-    color: #222;
-    font-family: Prata;
-    font-weight: 400;
-    font-size: 73px;
-    line-height: 145%;
-    letter-spacing: -1.46px;
-    text-transform: capitalize;
-    padding-bottom: 30px;
-}
-.hero-section p{
-    color: #7A7A7A;
-    font-family: "Plus Jakarta Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 220%;
-    letter-spacing: 0.64px;
-}
-.button{
-    display: inline-block;
-    margin-top: 75px;
-    padding: 12px 56px 14px 35px;
-    color: #111;
-    font-family: "Plus Jakarta Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 220%;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-    border: #ccc 2px solid;
-    cursor: pointer;
-
-}
-.button:hover,
-.button:active{
-    background-color: #f9f9f9;
-    border: #b8b7b7 2px solid;
-}
-/* partners */
-.partners{
-    background: #EDEBE4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 272px;
-    margin-top: 170px;
-}
-.partners div{
-    margin: 0 36px;
-    padding: 5px;
-    width: 225px;
-    height: 125px;
-    padding: 16px;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
-.partners div img{
-    height: 100px;
-}
-.partners div p{
-    color: #94928B;
-    text-align: center;
-    font-family: Garamond;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-}
-.img2 img{
-    margin-bottom: 9.8px;
 }
