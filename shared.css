@@ -89,6 +89,11 @@ body{
 .main-nav__item{
     margin: 0 1rem;
     font-size:1.1rem;
+    cursor: pointer;
+}
+.main-nav__item:hover,
+.main-nav__item:active{
+    color: #6d6c6c;
 }
 /* main */
 main{
