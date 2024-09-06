@@ -83,3 +83,14 @@
 .img2 img{
     margin-bottom: 9.8px;
 }
+
+/* feature section */
+
+.featured{
+    margin: 11.25rem auto;
+    width: 120rem;
+    background: #F3F2EC;
+}
+.feature-description{
+    
+}
