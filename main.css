@@ -169,7 +169,89 @@
     background: #E0E0E0;
     margin-top: 3.44rem;
 }
+/* best seller */
 
 .best-seller{
     margin-top: 16.31rem;
+    background-color: #EDEBE4;
+    display: flex;
+    width: 120rem;
+    width: 120rem;
+    height: 56.75rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.best-seller__info{
+    display: flex;
+    flex-direction: column;
+}
+.best-seller__heading{
+    color: #111;
+    font-family: Prata;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.best-seller__heading+img{
+    width: 2.875rem;
+    height: 0.3125rem;
+    margin-top: 0.56rem;
+}
+.best-seller__author{
+    color: #888;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
+    margin-top: 3.63rem;
+}
+.best-seller__title{
+    color: #111;
+    font-family: Prata;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 1.87rem;
+}
+.best-seller__title + p{
+    color: #7A7A7A;
+    width: 30.375rem;
+    height: 4.125rem;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 208%; 
+    letter-spacing: 0.02rem;
+    margin-bottom: 2.19rem;
+}
+.best-seller__price{
+    color: #74642F;
+    font-family: Prata;
+    font-size: 1.4375rem;
+    font-weight: 400;
+    letter-spacing: 0.02875rem;
+    text-transform: capitalize;
+}
+.best-seller__cta{
+    display: flex;
+    align-items: center;
+    margin-top: 3.63rem;
+    gap: 0.5rem;
+}
+.cta{
+    color: #111;
+    font-family: "Plus Jakarta Sans";
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    text-transform: capitalize;
+    
+}
+.best-seller__cta img{
+    width: 0.875rem;
+    height: 0.5rem;
 }
