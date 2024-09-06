@@ -30,12 +30,12 @@ body{
    align-items: center;
    justify-content: space-between;
    font-family: inherit ;
-   padding: 20px 100px;
+   padding: 1.25rem 6.25rem;
 }
 .social{
     display: flex;
-    width: 170px;
-    height: 20px;
+    width: 10.625rem;
+    height: 1.25rem;
 }
 .social img{
     margin: 0 0.5rem;
@@ -44,12 +44,12 @@ body{
 }
 .tags {
     display: flex;
-    font-size: 12px;
+    font-size: 0.75rem;
 
 }
 .tags div{
     color: #7777;
-    padding-left: 52px;
+    padding-left: 3.25rem;
     cursor: pointer;
 }
 /* main header */
@@ -65,15 +65,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 100px;
+    padding:  6.25rem;
     text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1.92px;    
+    font-size: 0.75rem;
+    letter-spacing: 0.12rem;    
 }
 .logo{
     font-family: "Cormorant Unicase", serif;
     letter-spacing: -0.92px;
-    font-size: 46px;
+    font-size: 2.875rem;
     font-weight: 400;
 }
 .highlighted__logo{
@@ -82,7 +82,7 @@ body{
 .main-nav_items{
     display: flex;
     list-style: none;
-    height: 20px;
+    height: 1.25rem;
     width: 693px;
     justify-content: flex-end;
 }
