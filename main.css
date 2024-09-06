@@ -88,9 +88,84 @@
 
 .featured{
     margin: 11.25rem auto;
-    width: 120rem;
-    background: #F3F2EC;
+    width: 80vw;
 }
 .feature-description{
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.0975rem;
+    text-transform: uppercase;
+}
+.feature-title{
+    color: #111;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 1.25rem;
+    font-family: Prata;
     
+}
+.featured-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.44rem;
+    margin-top: 3.55rem;
+}
+.featured-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-container{
+    width: 21.375rem;
+    height: 28.3125rem;
+    padding: 2.56rem 3.38rem 3.87rem 1.2rem;
+    border: 1px solid #EAE8DF;
+    background: #EFEEE8;
+    vertical-align: top;
+}
+.featured-img{
+    width: 18.3125rem;
+    height: 24.3125rem;
+}
+.item-title{
+    margin-top: 1.5rem;
+    color: #74642F;
+    text-align: center;
+    font-family: Prata;
+    font-size: 1.375rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.item-sub__title{
+    margin-top: 0.5rem;
+    color: #888;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.0175rem;
+    text-transform: capitalize;
+}
+.item-price{
+    margin-top: 1.25rem;
+    color: #74642F;
+    text-align: center;
+    font-family: Prata;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.0225rem;
+    text-transform: capitalize;
+}
+.feature-line{
+    width: 88.75rem;
+    height: 0.0625rem;
+    background: #E0E0E0;
+    margin-top: 3.44rem;
 }
