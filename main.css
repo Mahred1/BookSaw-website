@@ -88,7 +88,7 @@
 
 .featured{
     margin: 11.25rem auto;
-    width: 80vw;
+    width: 100vw;
 }
 .feature-description{
     color: #7A7A7A;
@@ -175,10 +175,9 @@
     margin-top: 16.31rem;
     background-color: #EDEBE4;
     display: flex;
-    width: 120rem;
-    width: 120rem;
+    width: 110rem;
+    gap: 6rem;
     height: 56.75rem;
-    margin: auto;
     align-items: center;
     justify-content: center;
 }
