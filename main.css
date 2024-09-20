@@ -110,6 +110,7 @@
 }
 .featured-items{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2.44rem;
@@ -163,12 +164,12 @@
     letter-spacing: 0.0225rem;
     text-transform: capitalize;
 }
-.feature-line{
-    width: 88.75rem;
-    height: 0.0625rem;
-    background: #E0E0E0;
-    margin-top: 3.44rem;
+hr {
+    width: 70vw;
+    margin: 6rem auto;
+  
 }
+
 /* best seller */
 
 .best-seller{
@@ -176,7 +177,7 @@
     background-color: #EDEBE4;
     display: flex;
     width: 110rem;
-    gap: 6rem;
+    gap: 9.8125rem;
     height: 56.75rem;
     align-items: center;
     justify-content: center;
