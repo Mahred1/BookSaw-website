@@ -374,3 +374,19 @@ hr {
     column-gap: 228px;
 
 }
+.newsletter-heading{
+    color: #111111;
+    font-family: Prata;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 65.04px;
+    text-transform: capitalize;
+    position: relative;
+}
+.newsletter-heading img{
+    width: 2.875rem;
+    height: 0.3125rem;
+    margin-top: 0.56rem;
+    position: absolute;
+    top: 180px;
+}
