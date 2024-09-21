@@ -259,7 +259,7 @@ hr {
 /* popular section */
 
 .popular{
-    margin:  11.25rem auto;
+    margin:  11.25rem 60px;
     width:80vw ;
     height: 92.5625rem;
 }
