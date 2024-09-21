@@ -388,5 +388,48 @@ hr {
     height: 0.3125rem;
     margin-top: 0.56rem;
     position: absolute;
-    top: 180px;
+    top: 190px;
+}
+.newsletter-sub{
+    position: relative;
+    width: 559px;
+    height: 66px;
+    color: #7a7a7a;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33.28px;
+    letter-spacing: 0.32px;
+}
+.newsletter-sub p{
+    margin-top: 1.2rem;
+}
+.newsletter-sub input{
+    margin-top: 40px;
+    background:#edebe4 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #6f6f6f solid 1px;
+    width: 400px;
+    height: 29px;
+}
+.newsletter-sub input:focus{
+    outline: none;
+}
+.send-button{
+    color: #111111;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+    position:absolute;
+    top: 132px;
+    left: 345px;
+
+}
+.send-button:hover{
+    cursor: pointer;
 }
