@@ -356,3 +356,21 @@ hr {
     text-transform: capitalize;
     letter-spacing: 0.36px;
 }
+/* Newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 179px;
+    width: 100vw;
+    height: 427px;
+    background: #edebe4;
+  
+
+}
+.newsletter-container{
+    width: 70vw;
+    display: flex;
+    column-gap: 228px;
+
+}
