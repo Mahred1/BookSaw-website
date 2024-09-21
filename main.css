@@ -303,3 +303,29 @@ hr {
 .popular-nav__items > .popular-nav__item{
     color: #111111;
 }
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(2,35.125rem);
+    grid-row-gap: 2rem;
+    grid-column-gap: 2.4rem;
+}
+.gallery-item{
+    display: flex;
+    flex-direction: column;
+}
+.image-container{
+    width: 100%;
+    padding: 3.625rem 3.3125rem;
+    height: 27.3125rem;
+    border: 1px solid #eae8df;
+    background: #efeee8;
+}
+.image-container img{
+    width: 250.35px;
+    height: 321px;
+    box-shadow: 2px 4px 30px rgba(115,114,109,0.25);
+}
+.book-title{
+    
+}
