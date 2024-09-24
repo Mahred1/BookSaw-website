@@ -260,7 +260,7 @@ hr {
 
 .popular{
     margin:  11.25rem 60px;
-    width:80vw ;
+    width:92.5vw ;
     height: 92.5625rem;
 }
 .popular-header{
@@ -432,4 +432,20 @@ hr {
 }
 .send-button:hover{
     cursor: pointer;
+}
+
+/* download app */
+.download-app{
+    margin-top: 180px;
+    width: 100vw;
+    height: 795px;
+    background: #edebe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 220px;
+
+}
+.app-info{
+    width: 550px;
 }
