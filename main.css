@@ -446,6 +446,45 @@ hr {
     column-gap: 220px;
 
 }
+.app-img{
+    width: 299.84px;
+    height: 607.22px;
+}
 .app-info{
     width: 550px;
+}
+.app-info h1{
+    color: #111111;
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65.04px;
+    text-transform: capitalize;
+}
+.app-info >img{
+    margin-top: 19px;
+    width: 47.66px;
+    height: 7px;
+}
+.app-info p{
+    margin-top: 12px;
+    color: #7a7a7a;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33.28px;
+    letter-spacing: 0.32px;
+}
+.app-stores{
+    margin-top: 49px;
+   display: flex;
+   column-gap: 12px;
+}
+.app-stores img{
+    width: 158px;
+    height: 46px;
+}
+.app-stores img:hover,
+.app-stores img:active{
+    cursor: pointer;
 }
